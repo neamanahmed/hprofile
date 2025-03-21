@@ -1,8 +1,8 @@
 name: Hprofile Actions
-on: [push, workflow_dispatch]
+on: [workflow_dispatch]
 jobs:
   Testing:
     runs-on: ubuntu-latest
     steps:
       - name: Testing workflow
-        run: echo "Workflow works!"
+        run: echo "Workflow works!  after removed push"
